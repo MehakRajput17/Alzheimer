@@ -1,0 +1,27 @@
+<html>
+    <body background="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQMAAADCCAMAAAB6zFdcAAAAA1BMVEWAgICQdD0xAAAASElEQVR4nO3BMQEAAADCoPVPbQwfoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIC3AcUIAAFkqh/QAAAAAElFTkSuQmCC">
+
+        <center>
+
+        <h1> ALZHEIMER DISEASE PREDICTION </h1><br>
+
+        <form method="POST", action="{{url_for('home')}}">
+           <b> Visit :  <input type="text", name='a', placeholder="enter visit"> <br><br>
+            MR Delay :  <input type="text", name='b', placeholder="enter MR Delay"> <br><br>
+            M/F :  <input type="text", name='c', placeholder="enter gender"> <br><br>
+            Age :  <input type="text", name='d', placeholder="enter your age"> <br><br>
+            EDUC :  <input type="text", name='e', placeholder="enter Education"> <br><br>
+            SES :  <input type="text", name='f', placeholder="enter SES"> <br><br>
+            MMSE :  <input type="text", name='g', placeholder="enter MMSE"> <br><br>
+            CDR :  <input type="text", name='h', placeholder="enter CDR"> <br><br>
+            eTIV :  <input type="text", name='i', placeholder="enter eTIV"> <br><br>
+            nWBV :  <input type="text", name='j', placeholder="enter nWBV"> <br><br>
+            ASF :  <input type="text", name='k', placeholder="enter ASF"> <br><br><br></b>
+            <input type="submit" , value='predict' >
+        </form>
+
+
+    </center>
+
+    </body>
+</html>
